@@ -20,6 +20,7 @@ If you want to connect to any available powermeter : replace line on line 25
 
     if (advertisedDevice.haveServiceUUID() && advertisedDevice.isAdvertisingService(serviceUUID) && Scaned_BLE_Address == MY_BLE_ADDRESS ) {
 with this : 
+
     if (advertisedDevice.haveServiceUUID() && advertisedDevice.isAdvertisingService(serviceUUID) ) {
 
 
